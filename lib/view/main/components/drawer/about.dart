@@ -14,9 +14,9 @@ class About extends StatelessWidget {
         child: Column(
           children: [
             const Spacer(flex: 2),
-            const DrawerImage(),
+            DrawerImage(height: 200, width: 200),
             const Spacer(),
-            Text('Amod Mandal', style: Theme.of(context).textTheme.titleSmall),
+            Text('Amod Mandal', style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: defaultPadding / 4),
             const Text(
               'Flutter Developer & The Student of\nComputer Engineering',

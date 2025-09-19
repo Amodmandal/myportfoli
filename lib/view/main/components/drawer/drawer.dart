@@ -20,18 +20,18 @@ class CustomDrawer extends StatelessWidget {
             //  const About(),
             Container(
               color: bgColor,
-              child: const Padding(
-                padding: EdgeInsets.all(defaultPadding / 2),
+              child: Padding(
+                padding: const EdgeInsets.all(defaultPadding / 2),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     DrawerImage(),
-                    PersonalInfo(),
-                    MySKills(),
-                    Knowledges(),
-                    Divider(),
-                    SizedBox(height: defaultPadding),
-                    ContactIcon(),
+                    const PersonalInfo(),
+                    const MySKills(),
+                    const Knowledges(),
+                    const Divider(),
+                    const SizedBox(height: defaultPadding),
+                    const ContactIcon(),
                   ],
                 ),
               ),
